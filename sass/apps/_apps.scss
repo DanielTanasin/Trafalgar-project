@@ -1,0 +1,60 @@
+.element-box--three {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  bottom: 15px;
+  right: -20px;
+
+  @media only screen and(max-width:1200px) {
+    display: none;
+  }
+}
+
+.apps__wrapper {
+  display: flex;
+  margin-top: 110px;
+  justify-content: center;
+  align-items: center;
+
+  @media only screen and(max-width:1200px) {
+    margin-top: 200px;
+  }
+  @media only screen and(max-width:900px) {
+    flex-direction: column-reverse;
+  }
+}
+
+.apps__content {
+  @media only screen and(max-width:900px) {
+    text-align: center;
+  }
+}
+
+.apps__img-box {
+  max-width: 100%;
+  position: relative;
+  @media only screen and(max-width:900px) {
+    margin-bottom: 80px;
+  }
+  @media only screen and(max-width:600px) {
+    margin-bottom: 50px;
+  }
+}
+
+.apps__img {
+  position: relative;
+  width: 100%;
+  left: 115px;
+
+  @media only screen and(max-width:1400px) {
+    width: 80%;
+    left: 80px;
+  }
+  @media only screen and(max-width:900px) {
+    left: 50px;
+  }
+  @media only screen and(max-width:600px) {
+    left: 0;
+    width: 100%;
+  }
+}

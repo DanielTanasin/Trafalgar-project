@@ -1,0 +1,148 @@
+.footer {
+  width: 100%;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  margin-top: 202px;
+  position: relative;
+}
+
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 118px 0 109px 0;
+
+  @media only screen and(max-width:1200px) {
+    flex-direction: column-reverse;
+  }
+}
+
+.logot-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 17px;
+  text-align: center;
+
+  @media only screen and(max-width:1200px) {
+    display: block;
+  }
+}
+
+.t-box {
+  position: relative;
+  margin-right: 12px;
+}
+
+.t {
+  position: absolute;
+  z-index: 2;
+  padding-top: 10px;
+  padding-left: 12px;
+}
+
+.circle {
+  position: relative;
+  z-index: 1;
+}
+
+.footer__heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: white;
+}
+
+.footer__p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: white;
+  margin-bottom: 31px;
+  max-width: 400px;
+  @media only screen and(max-width:1200px) {
+    max-width: 700px;
+  }
+}
+
+.copy {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: white;
+}
+
+.trafalgar-box {
+  margin-right: 145px;
+  @media only screen and(max-width:1200px) {
+    margin-right: 0;
+    text-align: center;
+  }
+}
+
+.footer__columns {
+  display: flex;
+
+  @media only screen and(max-width:1200px) {
+    margin-bottom: 100px;
+  }
+  @media only screen and(max-width:768px) {
+    flex-direction: column;
+  }
+}
+
+.column {
+  @media only screen and(max-width:768px) {
+    text-align: center;
+  }
+}
+
+.column__link {
+  text-decoration: none;
+  list-style: none;
+}
+
+.column__item {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  color: white;
+  transform: all 0.3s ease;
+}
+
+.column__item:hover,
+.column__item:focus {
+  transform: scale(1.1);
+}
+.column-heading {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 60px;
+  margin-bottom: 2px;
+}
+
+.column--one {
+  margin-right: 177px;
+
+  @media only screen and(max-width:1400px) {
+    margin-right: 100px;
+  }
+  @media only screen and(max-width:1200px) {
+    margin-right: 150px;
+  }
+  @media only screen and(max-width:768px) {
+    margin-right: 0px;
+    margin-bottom: 50px;
+  }
+}
+.column--two {
+  margin-right: 150px;
+  @media only screen and(max-width:1400px) {
+    margin-right: 100px;
+  }
+  @media only screen and(max-width:1200px) {
+    margin-right: 150px;
+  }
+  @media only screen and(max-width:768px) {
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+}

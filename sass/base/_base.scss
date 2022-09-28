@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Mulish', sans-serif;
+}
+
+.container {
+  padding: 0 20px;
+  max-width: calc(1600px + 40px);
+  width: 100%;
+  margin: 0 auto;
+}
